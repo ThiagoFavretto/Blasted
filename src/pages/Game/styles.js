@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100%;
 `;
 
-export const ImageBackground = styled.video`
+export const Song = styled.video`
   position: fixed;
   right: 0;
   top: 600;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  ImageBackground,
+  Song,
   Container,
   Wall,
   Highway,
@@ -20,7 +20,7 @@ import aDow2 from "../../assets/aDow2.png";
 import aDow3 from "../../assets/aDow3.png";
 import Stop from "../../assets/parado1.jpg";
 
-import Riot from "../../assets/riot.mp4";
+import Riot from "../../assets/riot.m4v";
 
 const Game = () => {
   const [gif, setGif] = useState(Stop);
@@ -98,7 +98,7 @@ const Game = () => {
         </Highway>
       )}
       <Wall />
-      <ImageBackground width="400" src={Riot} id="riotA" />
+      <Song src={Riot} id="riotA" />
     </Container>
   );
 };
